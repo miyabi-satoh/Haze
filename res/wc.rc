@@ -1,0 +1,451 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_00MAIN              ICON    DISCARDABLE     "Main.ico"
+IDI_01ANIM              ICON    DISCARDABLE     "anim1.ico"
+IDI_02ANIM              ICON    DISCARDABLE     "anim2.ico"
+IDI_03ANIM              ICON    DISCARDABLE     "anim3.ico"
+IDI_04ANIM              ICON    DISCARDABLE     "anim4.ico"
+IDI_05STOP              ICON    DISCARDABLE     "Stop.ico"
+IDI_11CONFIG            ICON    DISCARDABLE     "icon1.ico"
+IDI_20CATALOG           ICON    DISCARDABLE     "notepad.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_WC_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "設定",                        ID_MNU_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "いますぐ壁紙を変更",          ID_MNU_SOON
+        MENUITEM SEPARATOR
+        MENUITEM "ﾊﾞｰｼﾞｮﾝ情報",                 ID_MNU_VERSION
+        MENUITEM SEPARATOR
+        MENUITEM "ｻｽﾍﾟﾝﾄﾞﾓｰﾄﾞ",                 ID_MNU_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "壁紙ﾁｪﾝｼﾞｬｰの終了",           ID_MNU_EXIT
+    END
+END
+
+IDR_CONFIG_ADD MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "画像ﾌｧｲﾙ\tCtrl+P",            IDM_ADD_PICTURE
+        MENUITEM "書庫ﾌｧｲﾙ\tCtrl+A",            IDM_ADD_ARCHIVE
+        MENUITEM SEPARATOR
+        POPUP "ｻﾑﾈｲﾙ"
+        BEGIN
+            MENUITEM "ﾌｫﾙﾀﾞ内のﾌｧｲﾙ\tShift+F",      IDM_SUM_FOLDER
+            MENUITEM "書庫内のﾌｧｲﾙ\tShift+A",       IDM_SUM_ARCHIVE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+IDR_CATALOG MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "すべて選択\tCtrl+A",          ID_MNU3_SELECTALL
+        MENUITEM "選択の切り替え",              ID_MNU3_SELCHANGE
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+IDR_CONFIG_DELETE MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "選択項目を削除\tDelete",      IDM_DEL_SELECTED
+        MENUITEM "全て削除",                    IDM_DEL_ALL
+        MENUITEM "選択項目以外を削除",          IDM_DEL_NOT
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+IDR_CONFIG_FILE MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "新規作成\tCtrl+N",            IDM_FILE_NEW
+        MENUITEM "開く\tCtrl+O",                IDM_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "上書き保存\tCtrl+S",          IDM_FILE_SAVE
+        MENUITEM "名前を付けて保存",            IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+IDR_CONFIG_LISTVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "選択項目の削除\tDelete",      IDM_DEL_SELECTED
+        MENUITEM "ﾌﾟﾚﾋﾞｭｰを表示\tDouble Click!", ID_MNU2_PREVIEW
+        MENUITEM "次回開始位置に指定",          ID_MNU2_SETNEXT
+        MENUITEM "個別設定",                    IDL_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "ｴｸｽﾌﾟﾛｰﾗｰ起動",               ID_MNU2_EXPLORER
+        MENUITEM SEPARATOR
+        POPUP "ｻﾑﾈｲﾙ表示"
+        BEGIN
+            MENUITEM "現在のﾘｽﾄ\tShift+L",          IDM_SUM_LIST
+            MENUITEM "ﾌｫﾙﾀﾞ内のﾌｧｲﾙ\tShift+F",      IDM_SUM_FOLDER
+            MENUITEM "書庫内のﾌｧｲﾙ\tShift+A",       IDM_SUM_ARCHIVE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+IDR_CONFIG_MOVE MENU DISCARDABLE 
+BEGIN
+    POPUP "dummy"
+    BEGIN
+        MENUITEM "上へ\tCtrl+↑",               IDM_MOV_UP
+        MENUITEM "下へ\tCtrl+↓",               IDM_MOV_DOWN
+        MENUITEM SEPARATOR
+        MENUITEM "一番上へ\tCtrl+Home",         IDM_MOV_CEIL
+        MENUITEM "一番下へ\tCtrl+End",          IDM_MOV_FLOOR
+        MENUITEM SEPARATOR
+        MENUITEM "ｷｬﾝｾﾙ(ESC)",                  IDCANCEL
+    END
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,6
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "萌える漢の必須アイテム\0"
+            VALUE "CompanyName", "喫茶・雅\0"
+            VALUE "FileDescription", "壁紙変更プログラム 「霞」\0"
+            VALUE "FileVersion", "1, 0, 0, 6\0"
+            VALUE "InternalName", "霞【カスミ】\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999 by MIYABI\0"
+            VALUE "LegalTrademarks", "Copyright (C) 1999 by MIYABI\0"
+            VALUE "OriginalFilename", "haze.exe\0"
+            VALUE "PrivateBuild", "07, 13, 0, 1999\0"
+            VALUE "ProductName", "haze\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+            VALUE "SpecialBuild", "なし\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            IDA_CTRL_A,             VIRTKEY, CONTROL, NOINVERT
+    "A",            IDA_SHIFT_A,            VIRTKEY, SHIFT, NOINVERT
+    "F",            IDA_SHIFT_F,            VIRTKEY, SHIFT, NOINVERT
+    "L",            IDA_SHIFT_L,            VIRTKEY, SHIFT, NOINVERT
+    "N",            IDA_CTRL_N,             VIRTKEY, CONTROL, NOINVERT
+    "O",            IDA_CTRL_O,             VIRTKEY, CONTROL, NOINVERT
+    "P",            IDA_CTRL_P,             VIRTKEY, CONTROL, NOINVERT
+    "S",            IDA_CTRL_S,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      IDA_DELETE,             VIRTKEY, NOINVERT
+    VK_DOWN,        IDA_CTRL_DOWN,          VIRTKEY, CONTROL, NOINVERT
+    VK_END,         IDA_CTRL_END,           VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      IDA_ESC,                VIRTKEY, NOINVERT
+    VK_HOME,        IDA_CTRL_HOME,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      IDA_INSERT,             VIRTKEY, NOINVERT
+    VK_UP,          IDA_CTRL_UP,            VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_COMMON DIALOG DISCARDABLE  0, 0, 315, 222
+STYLE WS_CHILD | WS_VISIBLE
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "表示方法",IDC_STATIC,7,7,144,44
+    GROUPBOX        "変更の頻度",IDC_STATIC,7,60,144,59
+    EDITTEXT        ID_EDIT_TIMEVAL,95,98,35,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin3",IDC_SPIN_TIME,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,51,98,9,14
+    LTEXT           "分",IDC_STATIC,134,98,8,14,SS_CENTERIMAGE
+    GROUPBOX        "拡大・縮小",IDC_STATIC,157,7,149,77
+    EDITTEXT        ID_EDIT_HEIGHT,188,41,40,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin4",IDC_SPIN_HEIGHT,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,258,41,10,14
+    EDITTEXT        ID_EDIT_WIDTH,188,61,40,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin5",IDC_SPIN_WIDTH,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,282,43,10,14
+    LTEXT           "縦 ：",IDC_STATIC,166,41,15,14,SS_CENTERIMAGE
+    LTEXT           "横 ：",IDC_STATIC,166,61,15,14,SS_CENTERIMAGE
+    LTEXT           "単位",IDC_STATIC,231,41,24,14,SS_CENTERIMAGE
+    COMBOBOX        ID_COMBO_UNIT,231,61,48,51,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        ID_COMBO_TILE,14,19,128,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        ID_COMBO_TIME,14,74,128,81,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        ID_COMBO_EXT,163,19,135,86,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "ﾃﾞｽｸﾄｯﾌﾟ",IDC_STATIC,7,127,144,48
+    CONTROL         "ｱｲｺﾝ名の背景を透明にしちゃう",ID_BUTTON_TRANS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,139,106,10
+    PUSHBUTTON      "...",ID_BUTTON_COLSEL,115,157,11,10
+    LTEXT           "文字の色まで変えちゃう",IDC_STATIC,14,157,70,10,
+                    SS_CENTERIMAGE
+    CONTROL         "",ID_STATIC_COLOR,"Static",SS_BLACKFRAME,92,157,20,10
+    GROUPBOX        "ﾄﾚｲｱｲｺﾝをﾀﾞﾌﾞﾙｸﾘｯｸしたとき",IDC_STATIC,158,90,148,74
+    COMBOBOX        ID_COMBO_2CLK,163,105,135,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        ID_EDIT_EXEC,163,127,135,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "参照",ID_BUTTON_BROWSE,262,145,36,14
+END
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 335, 289
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "壁紙ﾁｪﾝｼﾞｬｰ Ver 1.01 -設定-"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    PUSHBUTTON      "適用",IDM_SAVE,278,268,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,222,268,50,14
+    CONTROL         "Tab1",IDM_TAB,"SysTabControl32",WS_TABSTOP,7,7,321,251
+    DEFPUSHBUTTON   "OK",IDOK,166,268,50,14
+END
+
+IDD_WAIT DIALOG DISCARDABLE  0, 0, 179, 34
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "壁紙ﾁｪﾝｼﾞｬｰ"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    CTEXT           "Plug-inを読み込んでいます...",IDC_TEXT,7,13,165,8,
+                    SS_CENTERIMAGE
+END
+
+IDD_KOBETSU DIALOG DISCARDABLE  0, 0, 247, 241
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "個別設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,126,222,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,190,222,50,14
+    GROUPBOX        "表示方法",IDC_STATIC,112,90,129,41
+    GROUPBOX        "拡大・縮小",IDC_STATIC,112,7,129,79
+    EDITTEXT        ID_EDIT_HEIGHT,139,39,40,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_HEGHT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,202,40,9,
+                    14
+    EDITTEXT        ID_EDIT_WIDTH,139,59,40,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_WIDTH,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,219,41,9,
+                    14
+    LTEXT           "縦 ：",IDC_STATIC,121,39,15,14,SS_CENTERIMAGE
+    LTEXT           "横 ：",IDC_STATIC,121,59,15,14,SS_CENTERIMAGE
+    LTEXT           "単位",IDC_STATIC,183,39,24,14,SS_CENTERIMAGE
+    COMBOBOX        ID_COMBO_UNIT,183,59,48,51,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "画像情報",IDC_STATIC,7,28,102,58
+    LTEXT           "幅（pixel）",IDC_STATIC,10,42,28,8
+    LTEXT           "高さ（pixel）",IDC_STATIC,10,56,34,8
+    LTEXT           "色数",IDC_STATIC,10,70,15,8
+    RTEXT           "Static",ID_LABEL_WIDTH,86,42,18,8
+    RTEXT           "Static",ID_LABEL_HEIGHT,86,56,18,8
+    RTEXT           "Static",ID_LABEL_COLOR,86,70,18,8
+    CONTROL         "個別設定を有効にする",ID_BUTTON_FLAG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,82,10
+    COMBOBOX        ID_COMBO_EXT,117,19,115,80,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        ID_COMBO_TILE,117,105,115,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Plug-inの指定",IDC_STATIC,112,137,129,76
+    LTEXT           "書庫展開用",IDC_STATIC,117,151,35,8
+    COMBOBOX        IDC_COMBO1,117,162,115,67,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ファイル展開用",IDC_STATIC,117,179,45,8
+    COMBOBOX        IDC_COMBO2,117,189,115,62,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LIST DIALOG DISCARDABLE  0, 0, 314, 222
+STYLE WS_CHILD | WS_VISIBLE
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ファイル名",IDL_FILE,52,13,153,8
+    LTEXT           "ﾌﾟﾚﾋﾞｭｰ",IDC_STATIC,208,13,24,8
+    PUSHBUTTON      "追加　＞",IDL_ADDTION,58,151,45,14
+    PUSHBUTTON      "削除　＞",IDL_DELETE,109,151,45,14
+    PUSHBUTTON      "移動　＞",IDL_MOVE,160,151,45,14
+    PUSHBUTTON      "ﾌｧｲﾙ ＞",IDL_COM_LIST,7,151,45,14
+    GROUPBOX        "ｵﾌﾟｼｮﾝ（場合によっては遅くなります）",IDC_STATIC,7,171,
+                    142,43
+    CONTROL         "ﾌｧｲﾙ名が重複する場合は追加しない",IDL_OPTION1,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | BS_TOP | WS_TABSTOP,11,200,
+                    127,10
+    CONTROL         "展開できないﾌｧｲﾙは追加しない",IDL_OPTION2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,185,109,10
+    GROUPBOX        "次回開始位置",IDC_STATIC,228,171,78,43
+    EDITTEXT        IDL_EDIT,236,189,40,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_NEXT,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,263,147,9,
+                    14
+    LTEXT           "番目",IDC_STATIC,280,189,18,14,SS_CENTERIMAGE
+    PUSHBUTTON      "個別設定",IDL_CONFIG,256,125,50,14
+    LTEXT           "ファイル一覧：",IDC_STATIC,7,13,42,8
+    GROUPBOX        "変更順序",IDC_STATIC,153,171,70,43
+    CONTROL         "登録順",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,158,185,
+                    37,10
+    CONTROL         "ランダム",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,158,
+                    199,41,10
+END
+
+IDD_PLUGIN DIALOG DISCARDABLE  0, 0, 313, 221
+STYLE WS_CHILD | WS_VISIBLE
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "検索先のﾌｫﾙﾀﾞ",IDC_STATIC,7,7,46,14,SS_CENTERIMAGE
+    LTEXT           "IDP_SEARCHDIR",IDP_SEARCHDIR,67,7,187,14,SS_CENTERIMAGE
+    PUSHBUTTON      "ﾌｫﾙﾀﾞ変更",IDP_CHANGEDIR,260,7,50,14
+    LTEXT           "設定ありの項目はダブルクリックでダイアログを表示します",
+                    IDC_STATIC,7,213,170,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_KOBETSU, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 219
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TAB1                "ﾘｽﾄの設定"
+    IDS_TAB2                "ﾌﾟﾗｸﾞｲﾝの設定"
+    IDS_TAB3                "共通設定"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
